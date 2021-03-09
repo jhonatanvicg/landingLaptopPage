@@ -188,12 +188,9 @@ nav{
     width: 80%;
   }
 
-  .mid-eclipse{
-    left: 10%;
-  }
 
   .big-eclipse,.mid-eclipse,.small-eclipse{
-    opacity: 0.2;
+    display: none;
   }
 
 }

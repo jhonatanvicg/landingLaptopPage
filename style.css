@@ -176,7 +176,6 @@ nav{
     padding: 10px 0px 0px 0px;
   }
 
-
   .laptop-select{
     bottom: 5%;
     right: 50%;
@@ -195,6 +194,21 @@ nav{
 
   .big-eclipse,.mid-eclipse,.small-eclipse{
     opacity: 0.2;
+  }
+
+}
+
+@media screen and (max-width:360px){
+  .cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .cta-add,.cta-select{
+    margin: auto;
+    margin-top: 10px;
   }
 
 }
